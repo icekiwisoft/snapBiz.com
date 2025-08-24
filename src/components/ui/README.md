@@ -253,3 +253,4 @@ Pour ajouter de nouveaux composants ou modifier les existants :
 3. Mettre à jour le fichier `index.ts`
 4. Ajouter des exemples dans `Showcase.tsx`
 5. Mettre à jour cette documentation
+

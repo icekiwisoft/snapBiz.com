@@ -14,7 +14,6 @@ import {
 import { 
   MagnifyingGlassIcon, 
   CheckIcon, 
-  XMarkIcon,
   HeartIcon,
   StarIcon
 } from '../IconComponents';

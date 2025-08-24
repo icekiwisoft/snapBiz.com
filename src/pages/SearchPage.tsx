@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Navbar from '../components/Navbar';
 import { MagnifyingGlassIcon, HeartIcon, FolderIcon } from '../components/IconComponents';
-import { Button, Input, Card, Badge } from '../components/ui';
+import { Button, Input } from '../components/ui';
 
 interface Brand {
   id: number;

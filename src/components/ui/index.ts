@@ -15,3 +15,4 @@ export type { BadgeProps } from './Badge';
 export type { ModalProps } from './Modal';
 export type { ToggleProps } from './Toggle';
 export type { ProgressProps } from './Progress';
+
