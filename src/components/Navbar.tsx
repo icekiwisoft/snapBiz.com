@@ -52,7 +52,7 @@ const Navbar: React.FC = () => {
                     {/* Authentication Buttons */}
                     <div className="hidden md:flex items-center space-x-4">
                         <Button variant="secondary" size="md">
-                            <Link to="/login">Connexion</Link>
+                            <Link to="/dashboard">Connexion</Link>
                         </Button>
                         <Button variant="primary" size="md">
                             <Link to="/register">S'inscrire</Link>
@@ -90,13 +90,13 @@ const Navbar: React.FC = () => {
                             >
                                 Tarifs
                             </Link>
-                            <Link
+                            {/* <Link
                                 to="/docs"
                                 className="block px-3 py-2 text-gray-300 hover:text-white hover:bg-gray-700 rounded-md"
                                 onClick={() => setMobileMenuOpen(false)}
                             >
                                 Docs
-                            </Link>
+                            </Link> */}
                             <div className="pt-4 space-y-2">
                                 <Button variant="secondary" size="sm" fullWidth>
                                     <Link to="/login">Connexion</Link>
